@@ -1,3 +1,3 @@
-A quick presentation about the Marketplace API.
+Quick presentation for [Marketplace API](http://marketplace.civiccommons.org/api).
 
 Using [Impress](https://github.com/bartaz/impress.js).

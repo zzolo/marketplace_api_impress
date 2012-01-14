@@ -6,6 +6,7 @@
     <meta name="author" content="zzolo" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
     <link href="impress/css/impress-demo.css" rel="stylesheet" />
+    <link href="styling.css" rel="stylesheet" />
 </head>
 <body>
   <div id="impress" class="impress-not-supported">
@@ -15,76 +16,71 @@
         <p>For the best experience please use the latest <b>Chrome</b> or <b>Safari</b> browser. Firefox 10 (to be released soon) will also handle it.</p>
     </div>
 
-    <div id="bored" class="step" data-x="-1000" data-y="-1500">
-      <h1>Civic Commons Marketplace API</h1>
-      <br><br>
+    <div id="title" class="step" data-x="-4000" data-y="-4000" data-scale="10">
+      <h1>Civic Commons</h1>
+    </div>
+    
+    <div id="civiccommons" class="step" data-x="1500" data-y="-1500" data-rotate="90" data-scale="8">
+      <h2>Marketplace</h2>
+      <p>Yelp for Gov't Technology.</p>
+    </div>
+    
+    <div id="civiccommons" class="step" data-x="1500" data-y="0" data-scale="6">
+      <h2>Marketplace API</h2>
       <p><a href="http://marketplace.civiccommons.org/api">marketplace.civiccommons.org/api</a></p>
     </div>
-
-
-<!--
-    <div class="step slide" data-x="0" data-y="-1500">
-        <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
+    
+    <div id="data-model" class="step" data-x="3000" data-y="3000" data-rotate="180" data-scale="4">
+      <h2>Data Model</h2>
+    </div>
+    
+    <div id="bookmarklet" class="step" data-x="4000" data-y="4000" data-rotate="270" data-scale="2">
+      <h2>Bookmarklet</h2>
+      <p>Browse and add.</p>
+    </div>
+    
+    <div id="widgets" class="step" data-x="5000" data-y="5000" data-rotate="0" data-scale="0.8">
+      <h2>Widgets</h2>
+      <p>Bring the Marketplace to other sites.</p>
+    </div>
+    
+    <div id="mass-import" class="step" data-x="6000" data-y="6000" data-rotate="90" data-scale="0.6">
+      <h2>Mass Import</h2>
+      <p>Add lots of apps at once.</p>
+    </div>
+    
+    <div id="icon-set" class="step" data-x="7000" data-y="7000" data-rotate="180" data-scale="0.4">
+      <h2>Icon Set</h2>
+      <p>Visual queues.</p>
+    </div>
+    
+    <div id="what-do-you-want" class="step" data-x="8000" data-y="8000" data-rotate="270" data-scale="0.2">
+      <h2>What do you want to know?</h2>
+      <p>About government technology.</p>
+    </div>
+    
+    <div id="other-ideas" class="step" data-x="9000" data-y="9000" data-rotate="0" data-scale="0.1">
+      <h2>Other Ideas</h2>
+      <ul>
+        <li>Visual queues.</li>
+        <li>Drupal.</li>
+        <li>Content via email.</li>
+        <li>Twitter alerts.</li>
+        <li>Mobile interface.</li>
+        <li>[[your idea here]].</li>
+      </ul>
+    </div>
+    
+    <div id="team-talk" class="step" data-x="3000" data-y="3000" data-rotate="270" data-scale="0.01">
+      <h2>Team</h2>
+      <ul>
+        <li>Nick Grossman</li>
+        <li>Alan Palazzolo</li>
+        <li>Abhi</li>
+      </ul>
     </div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
-    </div>
-
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
-    </div>
-
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
-    </div>
-
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
-    </div>
-
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p>and <b>tiny</b> ideas</p>
-    </div>
-
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
-    </div>
-
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
-    </div>
-
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>want to know more?</p>
-        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
-    </div>
-
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
-    </div>
-
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
-    </div>
-
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
-
-</div>
-
-<div class="hint">
-    <p>Use a spacebar or arrow keys to navigate</p>
-</div>
-
--->
-
-<script src="impress/js/impress.js"></script>
+  <script src="impress/js/impress.js"></script>
 
 </body>
 </html>
